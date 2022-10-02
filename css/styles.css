@@ -43,15 +43,15 @@ nav a:hover {
 
 @font-face {
   font-family: "aromatic";
-  src: url(./../images/Aromatic/Aromatic.ttf);
+  src: url(./images/Aromatic/Aromatic.ttf);
 }
 @font-face {
   font-family: "bourton";
-  src: url(./../../images/Bourton/BourtonBase.ttf);
+  src: url(./../images/Bourton/BourtonBase.ttf);
 }
 .homeHero {
   height: 400px;
-  background-image: url(./../../images/home/home-hero.png);
+  background-image: url(./../images/home/home-hero.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -207,7 +207,7 @@ nav a:hover {
   width: 100%;
   width: 50%;
   float: left;
-  background-image: url(./../../images/home/join-our-team.jpeg);
+  background-image: url(./../images/home/join-our-team.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -236,7 +236,7 @@ nav a:hover {
     height: 100%;
     width: 100%;
     float: left;
-    background-image: url(./../../images/home/join-our-team.jpeg);
+    background-image: url(./../images/home/join-our-team.jpeg);
     border-radius: 25px 25px 0px 0px;
   }
 }
@@ -274,7 +274,7 @@ footer a:hover {
 }
 .cateringHero {
   height: 400px;
-  background-image: url(./../../images/catering/catering-hero.jpeg);
+  background-image: url(./../images/catering/catering-hero.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -488,7 +488,7 @@ footer a:hover {
 
 .loginHero {
   height: 400px;
-  background-image: url(./../../images/login/loginHero.jpeg);
+  background-image: url(./../images/login/loginHero.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -545,7 +545,7 @@ footer a:hover {
   justify-content: center;
   color: #fff;
   margin-top: 32px;
-  background-image: linear-gradient(rgba(78, 110, 96, 0.65), rgba(78, 110, 96, 0.65)), url(./../../images/home/tomatoes.png);
+  background-image: linear-gradient(rgba(78, 110, 96, 0.65), rgba(78, 110, 96, 0.65)), url(./../images/home/tomatoes.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left;
@@ -563,7 +563,7 @@ footer a:hover {
   justify-content: center;
   flex-direction: column;
   font-family: bourton;
-  background-image: url(./../../images/login/background.png);
+  background-image: url(./../images/login/background.png);
   margin-top: 32px;
 }
 .form h2 {
