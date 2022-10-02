@@ -16,7 +16,7 @@
 
 .loginHero {
   height: 400px;
-  background-image: url(./../../images/login/loginHero.jpeg);
+  background-image: url(./../images/login/loginHero.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -86,7 +86,7 @@
       rgba(78, 110, 96, 0.65),
       rgba(78, 110, 96, 0.65)
     ),
-    url(./../../images/home/tomatoes.png);
+    url(./../images/home/tomatoes.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left;
@@ -105,7 +105,7 @@
   justify-content: center;
   flex-direction: column;
   font-family: bourton;
-  background-image: url(./../../images/login/background.png);
+  background-image: url(./../images/login/background.png);
   margin-top: 32px;
 
   h2 {
