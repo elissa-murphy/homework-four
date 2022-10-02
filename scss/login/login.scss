@@ -1,0 +1,195 @@
+.swal2-confirm.swal2-styled {
+  background-color: $green !important;
+  color: #fff;
+  border: 1px solid $green;
+}
+
+.swal2-confirm.swal2-styled:hover {
+  color: $green;
+  background-color: #fff !important;
+  border: 1px solid $green;
+}
+
+.swal2-title {
+  font-family: bourton;
+}
+
+.loginHero {
+  height: 400px;
+  background-image: url(./../../images/login/loginHero.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.catering-box {
+  margin: 0 auto;
+  margin-top: -150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 330px;
+  width: 400px;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 8px 2px rgb(215 210 203 / 45%);
+  font-family: bourton;
+  padding: 15px;
+
+  .box-title {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .box-desc,
+  .box-btn {
+    font-size: 16px;
+  }
+
+  .box-desc {
+    margin: 20px;
+    color: $darkOrange;
+  }
+
+  .box-btn {
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 600;
+      background-color: $green;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    a:hover {
+      background-color: #fff;
+      border: 3px solid $green;
+      color: $green;
+    }
+  }
+}
+
+.info {
+  margin: 0 auto;
+
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //   background-color: $green;
+  color: #fff;
+  margin-top: 32px;
+  background-image: linear-gradient(
+      rgba(78, 110, 96, 0.65),
+      rgba(78, 110, 96, 0.65)
+    ),
+    url(./../../images/home/tomatoes.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+
+  p {
+    width: 75%;
+    margin: 0% 10% 0% 30%;
+  }
+}
+
+.form {
+  margin: 0 auto;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: bourton;
+  background-image: url(./../../images/login/background.png);
+  margin-top: 32px;
+
+  h2 {
+    margin: 0 auto;
+    padding-top: 60px;
+  }
+  p {
+    text-align: center;
+    width: 30%;
+    margin: 16px 0px 32px 0px;
+  }
+
+  input {
+    // display: block;
+    width: 400px;
+    height: 40px;
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.2rem #d7d2cb;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: bourton;
+  }
+
+  input#submit {
+    width: fit-content;
+    margin-top: 20px;
+  }
+
+  input#submit:hover {
+    background-color: $green;
+    color: #fff;
+  }
+
+  a {
+    color: $green;
+    text-decoration: none;
+    padding: 32px 0px 16px 0px;
+  }
+
+  label {
+    padding: 16px 0px 0px 0px;
+    margin-left: -310px;
+    font-size: 14px;
+    color: $font;
+    padding-bottom: 3px;
+  }
+}
+
+.info2 {
+  margin: 0 auto;
+  text-align: center;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $green;
+  color: #fff;
+  margin-top: 96px;
+  flex-direction: column;
+
+  .info-title {
+    font-size: 22px;
+  }
+
+  .info-desc {
+    width: 60%;
+  }
+
+  .apps {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .app {
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .form {
+    p {
+      width: 75%;
+    }
+  }
+}

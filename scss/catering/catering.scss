@@ -1,0 +1,233 @@
+.cateringHero {
+  height: 400px;
+  background-image: url(./../../images/catering/catering-hero.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.catering-box {
+  margin: 0 auto;
+  margin-top: -150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 330px;
+  width: 400px;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 8px 2px rgb(215 210 203 / 45%);
+  font-family: bourton;
+  padding: 15px;
+
+  .box-title {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .box-desc,
+  .box-btn {
+    font-size: 16px;
+  }
+
+  .box-desc {
+    margin: 20px;
+  }
+
+  .box-btn {
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 600;
+      background-color: $green;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    a:hover {
+      background-color: #fff;
+      border: 3px solid $green;
+      color: $green;
+    }
+  }
+}
+
+.options {
+  margin: 0 auto;
+  height: 225px;
+  padding: 48px 0px;
+
+  p {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 32px;
+    font-family: bourton;
+    padding-bottom: 10px;
+  }
+
+  .optionsList {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .option {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+      width: 400px;
+      height: 100px;
+
+      .option-title {
+        font-size: 28px;
+        font-family: bourton;
+      }
+
+      .option-desc {
+        text-align: center;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.links {
+  margin: 0 auto;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .link {
+    a {
+      color: $darkOrange;
+      font-family: bourton;
+      text-decoration: none;
+      margin: 0px 32px;
+    }
+
+    a:hover {
+      text-decoration: underline $green 3px;
+    }
+  }
+}
+
+.catering {
+  min-height: 1800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 75px;
+
+  .cateringBox {
+    margin: 10px;
+    height: 520px;
+    width: 700px;
+    background: $background;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 0 0.6rem 0 #d7d2cb;
+
+    .catering-title {
+      font-family: aromatic;
+      font-size: 25px;
+      color: $darkOrange;
+    }
+
+    .catering-img {
+      max-height: 274px;
+      width: 650px;
+
+      img {
+        width: 650px;
+        border-radius: 15px 15px 0px 0px;
+      }
+    }
+
+    .catering-info {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 16px 0px;
+
+      .catering-desc {
+        width: 60%;
+        float: left;
+        margin-left: 25px;
+        color: $font;
+      }
+
+      .catering-btn {
+        margin-right: 64px;
+        a {
+          text-decoration: none;
+          color: $green;
+          padding: 10px 50px;
+          border: 3px solid $green;
+          font-family: bourton;
+          border-radius: 10px;
+        }
+
+        a:hover {
+          background-color: $green;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .options {
+    .optionsList {
+      flex-direction: column;
+    }
+  }
+
+  .links {
+    flex-direction: column;
+  }
+
+  .catering {
+    margin-top: 300px;
+
+    .cateringBox {
+      width: 350px;
+
+      .catering-title {
+        font-size: 18px;
+      }
+
+      .catering-info {
+        flex-direction: column;
+        padding: 5px;
+
+        .catering-desc {
+          width: 275px;
+        }
+
+        .catering-btn {
+          margin: 25px 0px;
+          a {
+            padding: 10px;
+          }
+        }
+      }
+
+      .catering-img {
+        width: 325px;
+
+        img {
+          width: 325px;
+        }
+      }
+    }
+  }
+}

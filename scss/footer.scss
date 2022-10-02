@@ -1,0 +1,38 @@
+footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  //   justify-content: space-evenly;
+  justify-content: right;
+  background-color: $background;
+  position: relative;
+
+  img {
+    position: absolute;
+    left: 16px;
+  }
+
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $darkOrange;
+    font-family: bourton;
+    margin: 0px 16px;
+    font-size: 14px;
+  }
+
+  a:hover {
+    text-decoration: underline $green 3px;
+  }
+}
+
+@media (max-width: 750px) {
+  footer {
+    img {
+      left: 37.5%;
+    }
+    a {
+      display: none;
+    }
+  }
+}
